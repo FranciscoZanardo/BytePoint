@@ -1,0 +1,9 @@
+body {
+    background-color: rgba(0, 0, 0, 0.705);
+}
+
+.container-itemlist {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

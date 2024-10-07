@@ -1,0 +1,39 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1rem 0 1rem;
+    background-color: aqua;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    margin: 0 1rem 0 1rem;
+    text-decoration: none;
+    color: black;
+}
+
+.imagen-carrito {
+    position: relative;
+}
+
+.numero {
+    position: absolute;
+    background-color: red;
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 2rem;
+}
