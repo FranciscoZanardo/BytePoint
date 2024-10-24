@@ -1,9 +1,4 @@
 body {
-    background-color: rgba(0, 0, 0, 0.705);
+    background-image: linear-gradient(to right top, #b00a68, #a11777, #8e2485, #762f90, #583898, #4649a6, #2f58b1, #0066b9, #0081c7, #0099c9, #00aec2, #0bc2b6);
 }
 
-.container-itemlist {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}

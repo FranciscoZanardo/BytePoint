@@ -1,0 +1,23 @@
+.contador{
+    display: flex;
+    flex-direction: row;
+}
+
+.suma{
+    margin: 10px;
+    padding: 0 2px 0 2px;
+}
+
+.resta{
+    margin: 10px;
+    padding: 0 4px 0 4px;
+}
+
+.agregar-carrito{
+    margin: 10px;
+    height: 30px;
+}
+
+p{
+margin: 15px;
+}

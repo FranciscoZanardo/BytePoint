@@ -1,0 +1,33 @@
+
+.container-itemlist {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.itemlistCards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.cards{
+    border: 1px solid;
+    background-color:bisque;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 30%;
+    border-radius: 5%;
+    padding: 1rem;
+    margin: 0.5rem;
+}
+
+.imgCards{
+    width: 55%;
+    height: 55%;
+}
+
