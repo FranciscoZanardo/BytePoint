@@ -3,17 +3,18 @@ import React from 'react'
 
 const FormCheckout = ({dataForm, handleChangeImput, handleSubmitForm}) => {
 return (
-        <form onSubmit={handleSubmitForm}> 
+        <form onSubmit={handleSubmitForm} className="form"> 
+        <h2>Registro para tu compra</h2>
             <label>Nombre</label>
-            <input type="text" name="fullname" value={dataForm.fullname} onChange={handleChangeImput} />
+            <input className="controls"  type="text" name="fullname" value={dataForm.fullname} placeholder="Francisco" onChange={handleChangeImput} />
 
             <label>Telefono</label>
-            <input type="numero" name="phone" value={dataForm.phone} onChange={handleChangeImput} />
+            <input className="controls"  type="numero" name="phone" value={dataForm.phone} placeholder="11-2222-2222" onChange={handleChangeImput} />
 
             <label>Email</label>
-            <input type="text" name="email" value={dataForm.email} onChange={handleChangeImput} />
+            <input  className="controls" type="text" name="email" value={dataForm.email} placeholder="correo@gmail.com" onChange={handleChangeImput} />
             
-            <button type="submit">Enviar mi orden</button>
+            <button className="botonForm" type="submit">Enviar mi orden</button>
         </form>
 )
 }

@@ -8,6 +8,7 @@ import validarForm from '../../utils/validateForm.js'
 import db from '../../db/db'
 import { Link } from 'react-router-dom'
 import { toast } from 'react-toastify'
+import "./FormCheckout.css"
 
 
 const Checkout = () => {
@@ -62,7 +63,7 @@ const Checkout = () => {
     }
 
 return (
-    <div>
+    <div className="checkoutContainer">
         {
             idOrder === null ? (
                 <FormCheckout 
@@ -70,10 +71,10 @@ return (
                 handleChangeImput={handleChangeImput} 
                 handleSubmitForm={handleSubmitForm}/>
             ) : (
-                <div>
+                <div className="chekoutSegundo">
                     <h2>Gracias por su cumpra!</h2>
                     <p>Este es su numero de seguimiento: {idOrder}</p>
-                    <Link to="/">Volver al incio</Link>
+                    <Link to="/" className="botonFinal">Volver al incio</Link>
                 </div>
             )
         }

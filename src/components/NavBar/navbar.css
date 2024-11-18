@@ -58,6 +58,11 @@ a {
     font-style: normal;
 }
 
+.navbar a:hover {
+    text-decoration: underline;
+
+}
+
 .imagen-carrito {
     position: relative;
     margin-right: 1rem;

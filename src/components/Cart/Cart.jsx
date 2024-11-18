@@ -34,7 +34,7 @@ return (
         }
         <div className="containerCart">
             <button className="botonDeleteAll" onClick={borrarTodo}>Borrar todo lo del carrito</button>
-            <Link to="/checkout">Terminar mi compra</Link>
+            <Link to="/checkout" className="botonCart" >Terminar mi compra</Link>
             <h2 className="totalPrice">Precio tola del carrito: ${precioTotal()}</h2>
         </div>
     </div>

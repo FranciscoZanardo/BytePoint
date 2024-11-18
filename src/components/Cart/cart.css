@@ -12,10 +12,13 @@
 }
 
 .cardCarrito{
-    border: solid 1px;
+    border: solid;
+    border-radius: 8px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
     margin: 10px 1rem 0 1rem;
+    padding: 5px;
 }
 
 .tituloCardCarrito{
@@ -38,14 +41,12 @@
 
 .botonDeleteAll{
     margin: 10px 0 10px 1rem;
-
     padding: 10px 20px;
     background-color:#af2f1e ;
     color: white;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    
 }
 
 .botonDeleteAll:hover {
@@ -75,9 +76,23 @@
 .botonCarritoVacio{
     margin: 10rem 0 10px 1rem;
     padding: 10px 20px;
-    background-color:#1136da ;
+    background-color:#1136da;
     color: white;
     border: none;
     border-radius: 5px;
     cursor: pointer;
+}
+
+.botonCart{
+    margin: 10px 0 10px 1rem;
+    padding: 10px 20px;
+    background-color:#2b850f ;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.botonCart:hover{
+    background-color: #2fb606;
 }

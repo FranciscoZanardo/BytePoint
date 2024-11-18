@@ -31,8 +31,7 @@
     justify-content: center;
     margin: 1rem;
     border-radius: 8px;
-    box-shadow: -1px -1px 3px 0 rgb(2, 2, 2), 2px 2px 8px 1px;
-
+    box-shadow: 7px 13px 37px #000;
 }
 
 .imagePrincipal img{
