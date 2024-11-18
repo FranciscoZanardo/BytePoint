@@ -1,26 +1,23 @@
-import React, { useEffect } from 'react'
 import { useState } from 'react'
 import ItemCountView from './ItemCountView'
 
-const ItemCount = () => {
+const ItemCount = ({stock, addproduct}) => {
     const [ contador, setContador ] = useState(1)
 
-const sumacontador = () => {
-    if (contador < 10) {
+const handlesumacontador = () => {
+    if (contador < stock) {
         setContador(contador + 1 )
     }
 }
 
-const restacontador = () => {
+const handlerestacontador = () => {
     if (contador > 1) {
-        setContador( contador - 1 )
+        setContador(contador - 1 )
     }
 }
 
-
-
 return (
-    <ItemCountView contador={contador} sumacontador={sumacontador} restacontador={restacontador} />
+    <ItemCountView contador={contador} handlesumacontador={handlesumacontador} handlerestacontador={handlerestacontador} addproduct={addproduct}/>
 )
 }
 

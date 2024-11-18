@@ -1,23 +1,39 @@
-.contador{
-    display: flex;
-    flex-direction: row;
+.suma{
+    padding: 10px 20px;
+    background-color: white;
+    color: rgb(0, 0, 0);
+    border: solid #000000;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
-.suma{
-    margin: 10px;
-    padding: 0 2px 0 2px;
-}
+.suma:hover {background: #000000; color: white;}
 
 .resta{
-    margin: 10px;
-    padding: 0 4px 0 4px;
+    padding: 10px 20px;
+    background-color: white;
+    color: rgb(0, 0, 0);
+    border: solid #000000;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.resta:hover {background: #000000; color: rgb(238, 231, 231);}
+
+.vistaBotones{
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
 
 .agregar-carrito{
-    margin: 10px;
-    height: 30px;
+    padding: 10px;
+    background-color: white;
+    color: rgb(0, 0, 0);
+    border: solid #000000;;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
-p{
-margin: 15px;
-}
+.agregar-carrito:hover {background: #000000; color: white;}

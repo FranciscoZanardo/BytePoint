@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+
+.tituloCart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration:underline;
+    font-family: "Audiowide", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 10px;
+}
+
+.cardCarrito{
+    border: solid 1px;
+    display: flex;
+    align-items: center;
+    margin: 10px 1rem 0 1rem;
+}
+
+.tituloCardCarrito{
+    max-width: 28%;
+    min-width: 28%;
+}
+
+.botonDeleteCard{
+    padding: 10px 20px;
+    background-color:#af2f1e ;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.botonDeleteCard:hover {
+    background-color: #ff0000;
+}
+
+.botonDeleteAll{
+    margin: 10px 0 10px 1rem;
+
+    padding: 10px 20px;
+    background-color:#af2f1e ;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+.botonDeleteAll:hover {
+    background-color: #ff0000;
+}
+
+.totalPrice{
+    display: flex;
+    justify-content: flex-end;
+    margin: 10px 1rem 10px 0;
+    text-decoration:underline;
+}
+
+.containerCart{
+    display: flex;
+    justify-content: space-between;
+}
+
+.carritoVacio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+
+.botonCarritoVacio{
+    margin: 10rem 0 10px 1rem;
+    padding: 10px 20px;
+    background-color:#1136da ;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

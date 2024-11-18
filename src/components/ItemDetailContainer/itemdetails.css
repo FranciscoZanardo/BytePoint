@@ -1,0 +1,100 @@
+.itemDetails{
+    min-height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5%;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    max-width: 1000px;
+    margin: 20px auto;
+    background: #431C47;
+    background: linear-gradient(135deg, #82F5DD, #431C47);
+}
+
+.textoDetails{
+    display: flex;
+    flex-direction: column;
+}
+
+.imagePrincipal{
+    width: 26vw;
+    height: 400px;
+    max-width: 400px;
+    min-width: 300px;
+    background-color:#fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
+    border-radius: 8px;
+    box-shadow: -1px -1px 3px 0 rgb(2, 2, 2), 2px 2px 8px 1px;
+
+}
+
+.imagePrincipal img{
+    width: 100%;
+    height: 100%;
+    height: auto;
+    object-fit: contain;
+    border-radius: 8px;
+}
+
+.ImagenMap{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.ImagenMap .thumbnail {
+    width: 100px;
+    height: 100px;
+    border: 2px solid #ddd;
+    background-color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: border 0.3s;
+}
+
+.ImagenMap .thumbnail:hover {
+    border: 2px solid #0073e6;
+}
+
+.purchase-options {
+    margin-top: auto;
+}
+
+.detailsGeneral{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding: 10px;
+    margin-left: 10px
+}
+
+.textoDetails p{
+    margin: 15px;
+}
+
+.botonEndBuy {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff4d4f;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.botonEndBuy:hover {
+    background-color: #e60000;
+}

@@ -6,16 +6,16 @@ const NavBar = () => {
     
     return(
         <nav className="navbar">
-            <Link to="/" className="home">DytePoint</Link>
+            <Link to="/" className="home"><img width="64" height="64" src="https://img.icons8.com/nolan/64/rocket.png" alt="rocket"/>BytePoint</Link>
             <ul className="categorias">
                 <li className="categoria">
                     <Link to="/category/componentes">Componentes</Link>
                 </li>
                 <li className="categoria">
-                    <Link to="/category/pc's">Pc's</Link>
+                    <Link to="/category/accesorios">Accesorios</Link>
                 </li>
                 <li className="categoria">
-                    <Link to="/category/accesorios">Accesorios</Link>
+                    <Link to="/category/perifericos">Perifericos</Link>
                 </li>
                 
             </ul>
@@ -25,3 +25,4 @@ const NavBar = () => {
 }
 
 export default NavBar
+
