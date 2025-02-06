@@ -1,5 +1,7 @@
 import { useState } from 'react'
 import ItemCountView from './ItemCountView'
+import "./ItemCount.css"
+
 
 const ItemCount = ({stock, addproduct}) => {
     const [ contador, setContador ] = useState(1)
