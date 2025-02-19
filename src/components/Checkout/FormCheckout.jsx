@@ -1,4 +1,5 @@
 import React from 'react'
+import "./FormCheckout.css"
 
 
 const FormCheckout = ({dataForm, handleChangeImput, handleSubmitForm}) => {
@@ -20,3 +21,4 @@ return (
 }
 
 export default FormCheckout
+
