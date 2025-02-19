@@ -1,14 +1,14 @@
 import React from 'react'
 import { useState } from 'react'
-import FormCheckout from './FormCheckout'
+import FormCheckout from './FormCheckout.jsx'
 import { useContext } from 'react'
-import { CartContext } from '../../context/CartContext'
+import { CartContext } from '../../context/CartContext.jsx'
 import { Timestamp, addDoc, collection, doc, setDoc } from 'firebase/firestore'
 import validarForm from '../../utils/validateForm.js'
-import db from '../../db/db'
+import db from '../../db/db.js'
 import { Link } from 'react-router-dom'
 import { toast } from 'react-toastify'
-import "./formcheckout.css"
+import "./FormCheckout.css"
 
 
 const Checkout = () => {
