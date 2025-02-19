@@ -1,5 +1,5 @@
 import React from 'react'
-import "./ItemCount.css"
+import "./itemcount.css"
 const ItemCountView = ( {contador, handlesumacontador, handlerestacontador, addproduct} ) => {
 return (
     <div className='contador'>

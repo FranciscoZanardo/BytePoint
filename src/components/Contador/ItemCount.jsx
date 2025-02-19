@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import ItemCountView from './ItemCountView'
-import "./itemCount.css"
+import "./itemcount.css"
 
 
 const ItemCount = ({stock, addproduct}) => {
